@@ -7,7 +7,7 @@ const render = () => {
         url.innerText = item;
 
         const button = document.createElement('button');
-        button.classList.add('button', 'is-small', 'is-danger', 'is-outlined'g, 'm-0');
+        button.classList.add('button', 'is-small', 'is-danger', 'is-outlined', 'm-0');
         button.innerText = 'Remove';
         button.addEventListener('click', () => urls.remove(item));
 
